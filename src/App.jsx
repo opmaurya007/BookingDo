@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+// import "./Component/contactUs/Form";
 
 import {
   Blog,
@@ -145,6 +146,7 @@ function App() {
         <Vendor />
         <Newsletter />
         <ContactUs />
+        {/* <form /> */}
         <Footer />
       </div>
     </>

@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  background-color: #01112b;
+  color: white;
+}
+.footer-c {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+.footer-r {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.footer-l {
+  text-align: center;
+}
+.footer p {
+  color: white;
+}
+.footer-c a {
+  color: white;
+}
+.footer-l span {
+  margin-bottom: 10px;
+  padding: 5px;
+}

@@ -1,9 +1,31 @@
-import React from 'react'
+import React from "react";
+import "./vendor.css";
 
 const vendor = () => {
   return (
-    <div>vendor</div>
-  )
-}
+    <>
+      <div className="app-container">
+        <div className="content-container">
+          <h1>Download Vendor App</h1>
+          <div className="para-vendor">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry dummy text of the
+              printing and typesetting industry dummy text of the printing and
+              typesetting industry.
+            </p>
+          </div>
+          <div className="vendor-img">
+            <img src="./images/playstore.png" alt="" srcset="" width={120} />
+            <img src="./images/appstore.png" alt="" srcset="" width={120} />
+          </div>
+        </div>
+        <div className="image-container">
+          <img src="./images/vendor.png" alt="Your Image" />
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default vendor
+export default vendor;
