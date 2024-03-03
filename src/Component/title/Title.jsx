@@ -1,21 +1,9 @@
 import React from "react";
 import "./title.css";
-const Card = ({ title, content, imageUrl }) => (
-  <>
-    <div className="title">
-      <div className="title-r">
-        <h2>{title}</h2>
-        <p>{content}</p>
-        <button>Get Started</button>
-      </div>
-      <div className="title-image">
-        <img src={imageUrl} alt={title} />
-      </div>
-    </div>
-  </>
-);
+import Card from "../card/Card";
+import data from "../card/CardData";
 
-const title = ({ cardsData }) => {
+const title = () => {
   return (
     <>
       <div className="title-heading">
@@ -27,14 +15,15 @@ const title = ({ cardsData }) => {
           industry.
         </p>
       </div>
-      {cardsData.map((card, index) => (
+      <Card cardsData={data} />
+      {/* {props.cardsData.map((card, index) => (
         <Card
           key={index}
           title={card.title}
           content={card.content}
-          imageUrl={card.imageUrl}
+          image={card.imageUrl}
         />
-      ))}
+      ))} */}
     </>
   );
 };

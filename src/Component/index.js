@@ -12,3 +12,4 @@ export {default as  Review} from "./review/Review";
 export {default as  Store}from "./store/Store";
 export {default as  Title}from "./title/Title";
 export {default as  Vendor} from "./vender/Vendor";
+// export {default as  Card} from "./card/Card";

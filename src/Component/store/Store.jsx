@@ -1,17 +1,6 @@
 import React from "react";
 import "./store.css";
-
-const Card = ({ imageUrl, title, content }) => (
-  <>
-    <div className="feature-r">
-      <div className="feature-box">
-        <div className="card-icon">{imageUrl}</div>
-        <h2 className="card-title">{title}</h2>
-        <p className="card-description">{content}</p>
-      </div>
-    </div>
-  </>
-);
+import StoreCard from "../card/Card";
 
 const store = ({ store1 }) => {
   return (
@@ -27,16 +16,16 @@ const store = ({ store1 }) => {
               typesetting industry.
             </p>
           </div>
-          <div class="card-group text-center">
+          {/* <div class="card-group text-center">
             {store1.map((card, index) => (
-              <Card
+              <StoreCard
                 key={index}
-                imageUrl={card.imageUrl}
+                image={card.image}
                 title={card.title}
                 content={card.content}
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </>
