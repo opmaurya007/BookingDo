@@ -7,29 +7,60 @@
   background-color: #01112b;
   color: white;
 }
-.footer-c {
+.footer-content {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Three columns, adjust as needed */
+  gap: 20px; /* Adjust the gap between columns */
+  /* margin: 20px; */
+  padding: 20px;
+}
+/* .footer-item {
+  padding: 10px;
+  border: 1px solid #fff;
+  text-align: center;
+} */
+/* .footer-c {
   text-decoration: none;
   color: white;
   display: flex;
-}
+} */
 .footer-r {
   text-decoration: none;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  /* margin: px 15px; */
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 .footer-l {
-  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-.footer p {
+hr {
   color: white;
 }
-.footer-c a {
+/* .footer p {
   color: white;
+} */
+.footer-r a {
+  color: white;
+  /* padding: 10px; */
+  /* margin: 10px; */
+
+  /* flex-direction: start; */
+  /* flex-direction: column; */
 }
-.footer-l span {
+/* .footer-l span {
   margin-bottom: 10px;
   padding: 5px;
+} */
+
+.footer-r h4 {
+  font-weight: 400;
+  font-size: 25px;
 }

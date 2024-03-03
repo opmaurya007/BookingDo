@@ -4,15 +4,20 @@
 }
 
 .contact {
-  background-color: white;
   color: black;
   display: flex;
 }
 
 .contact-container {
-  margin: 100px 100px;
+  margin: 100px;
   flex: 1; /* Take up all available space in the flex container */
-  padding: 20px;
+  padding: 10px;
+}
+.contact-c {
+  text-align: center;
+}
+.contact-c h1 {
+  font-weight: bold;
 }
 
 .form {
@@ -22,10 +27,36 @@
 }
 
 .form {
+  background-color: white;
+  border: 0.002px solid gray;
+  border-color: none;
+  border-radius: 10px;
+  box-shadow: #fdfdfd;
+  margin: 40px;
   max-width: 100%; /* Make sure the image doesn't overflow its container */
   height: auto;
   display: block; /* Remove extra space under the image */
 }
-.contact p {
+input,
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  border-color: rgb(148, 143, 143);
+  padding: 5px;
+  margin: 5px;
+}
+.para p {
   color: black;
+  margin: 5px;
+  padding: 5px;
+  justify-content: flex-start;
+}
+
+.form-2 {
+  display: flex;
+  justify-content: space-between;
+}
+form .btn-2 {
+  border-radius: 10px;
+  align-items: center;
 }

@@ -4,8 +4,8 @@ import "./vendor.css";
 const vendor = () => {
   return (
     <>
-      <div className="app-container">
-        <div className="content-container">
+      <div className="vendor">
+        <div className="vendor-r">
           <h1>Download Vendor App</h1>
           <div className="para-vendor">
             <p>

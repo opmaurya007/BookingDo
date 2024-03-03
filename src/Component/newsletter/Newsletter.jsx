@@ -8,7 +8,7 @@ const newsletter = () => {
         <div className="news1-container">
           <img src="./images/newsletter.png" alt="Your Image" />
         </div>
-        <div className="content-container">
+        <div className="cont-container">
           <h1>Subscribe to our newsletter!</h1>
           <div className="news-para">
             <p>
