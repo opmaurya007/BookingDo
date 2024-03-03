@@ -5,7 +5,7 @@ const newsletter = () => {
   return (
     <>
       <div className="news-container">
-        <div className="news1-container">
+        <div className="img-container">
           <img src="./images/newsletter.png" alt="Your Image" />
         </div>
         <div className="cont-container">
@@ -18,9 +18,10 @@ const newsletter = () => {
               typesetting industry.
             </p>
           </div>
+
           <div className="btn-2">
             <input type="email" placeholder="Email" />
-            <button aria-placeholder="Email">Subscribe</button>
+            <button>Subscribe</button>
           </div>
         </div>
       </div>

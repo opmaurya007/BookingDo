@@ -1,6 +1,7 @@
 import React from "react";
 // import "./form.jsx";
 import "./contact.css";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const contactUs = () => {
   return (
@@ -15,12 +16,14 @@ const contactUs = () => {
               printing and typesetting industry dummy text of the printing and
               typesetting industry.
             </p>
-            <h6>Email Us</h6>
-            <p>paponapp2244@gmail.com</p>
-            <h6>Call Us</h6>
-            <p>+919016996697</p>
-            <hr />
-            <p>Connect with us :</p>
+            <div className="cant">
+              <h6>Email Us</h6>
+              <a href="www.email.com">paponapp2244@gmail.com</a>{" "}
+              <h6>Call Us</h6>
+              <a href="tel:+919016996697">+919016996697</a>
+              <hr />
+              <span>Connect with us :</span>
+            </div>
           </div>
         </div>
         {/* <---------------------------------> */}
@@ -43,10 +46,10 @@ const contactUs = () => {
                       <label htmlFor="">Name</label>
                       <br />
                       <input
-                        type="email"
+                        type="text"
                         name=""
                         id=""
-                        placeholder="email"
+                        placeholder="name"
                         width={80}
                       />
                     </div>
@@ -56,22 +59,40 @@ const contactUs = () => {
                       <label htmlFor="">Email</label>
                       <br />
                       <input
-                        type="Number"
+                        type="email"
                         name=""
                         id=""
-                        placeholder="Mobile Number"
+                        placeholder="email"
+                        width={80}
                       />
                     </div>
                   </div>
                   <br />
                   <label htmlFor="">Mobile Number</label>
-                  <br />
-                  <input type="text" name="" id="" placeholder="message" />
+                  <br />{" "}
+                  <input
+                    type="Number"
+                    name=""
+                    id=""
+                    placeholder="Mobile Number"
+                  />
                   <br />
                   <label htmlFor="">Message</label>
                   <br />
-                  <textarea name="" id="" cols="" rows="2"></textarea>{" "}
-                  <div className="btn-2">
+                  <textarea
+                    name=""
+                    id=""
+                    cols=""
+                    rows="2"
+                    placeholder="message"
+                  ></textarea>{" "}
+                  <div className="captcha">
+                    <ReCAPTCHA
+                      sitekey="YOUR_RECAPTCHA_SITE_KEY"
+                      name="recaptcha"
+                    />
+                  </div>
+                  <div className="cont-submit">
                     <button>Submit</button>
                   </div>
                 </div>

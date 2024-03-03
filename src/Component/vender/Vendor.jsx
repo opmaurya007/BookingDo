@@ -16,12 +16,13 @@ const vendor = () => {
             </p>
           </div>
           <div className="vendor-img">
-            <img src="./images/playstore.png" alt="" srcset="" width={120} />
-            <img src="./images/appstore.png" alt="" srcset="" width={120} />
+            <img src="./images/playstore.png" alt="" srcset="" width={180} />
+            <img src="./images/appstore.png" alt="" srcset="" width={180} />
           </div>
         </div>
+
         <div className="image-container">
-          <img src="./images/vendor.png" alt="Your Image" />
+          <img src="./images/vendor.png" alt="Your Image" width={500} />
         </div>
       </div>
     </>
