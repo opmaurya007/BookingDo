@@ -19,14 +19,4 @@
 //     </>
 //   );
 // };
-// // const StoreCard = ({ image, title, content }) => (
-// //   <>
-// //     <div className="store-card">
-// //       <div className="store-image">{image}</div>
-// //     </div>
-// //     <div className="store-title">{title}</div>
-// //     <div className="store-desc">{content}</div>
-// //   </>
-// // );
-
-// export default { Card };
+// export default Card;

@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 // import "./Component/contactUs/Form";
 import "bootstrap/dist/css/bootstrap.min.css";
-import storeData from "./Component/card/CardData.jsx";
+// import storeData from "./Component/card/CardData.jsx";
 
 import {
   Blog,
@@ -15,7 +15,7 @@ import {
   Newsletter,
   Plan,
   Review,
-  Store,
+  // Store,
   Title,
   Vendor,
   // Card,
