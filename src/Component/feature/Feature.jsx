@@ -17,7 +17,7 @@ const feature = () => {
               typesetting industry.
             </p>
           </div>
-          <div class="card-group text-center">
+          <div class="card-group ">
             {FeatureData.map((card, index) => (
               <FeatureCard
                 key={index}

@@ -1,7 +1,7 @@
 const FeatureCard = (props) => (
   <>
-    <div className="feature-box">
-      <div className="card-image">
+    <div className="store-box">
+      <div className="store-image">
         <img src={props.image} alt={props.imagee} />
       </div>
       <div className="feature-headpage">

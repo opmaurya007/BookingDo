@@ -16,7 +16,7 @@ import {
   Newsletter,
   Plan,
   Review,
-  // Store,
+  Store,
   Title,
   Vendor,
   // Card,
@@ -55,18 +55,16 @@ function App() {
         <Title cardsData={data} />
 
         <Feature />
+        <Plan />
 
-        {/* <Store store1={storeData} /> */}
+        <Store />
+        <Review />
 
-        {/* <Blog /> */}
-
-        {/* <Plan /> */}
-        {/* <Review /> */}
+        <Blog />
 
         <Vendor />
         <Newsletter />
         <ContactUs />
-        {/* <form /> */}
         <Footer />
       </div>
     </>
