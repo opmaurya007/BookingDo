@@ -14,7 +14,7 @@
 }
 
 .review-headpage {
-  margin: 100px 100px;
+  margin: 50px 100px 20px 0px;
   flex: 1; /* Take up all available space in the flex container */
   padding: 20px;
 }
@@ -23,7 +23,9 @@
   font-size: 60px;
 }
 
-.img-container {
+.review-image {
+  /* margin: 20px 200px 20px 100px; */
+
   flex: 0 0 50%; /* Take up 50% of the available space, don't grow, don't shrink */
   padding: 60px;
   box-sizing: border-box;
@@ -57,13 +59,6 @@ img {
   padding: 10px;
 }
 .btn-2 button {
-  /* border: none;
-    padding: 14px;
-    text-align: center;
-    align-items: center;
-    border-radius: 8px;
-    background-color: #f25a23;
-    color: white; */
   margin: -20;
   height: 85%;
   position: absolute;
@@ -71,4 +66,33 @@ img {
   top: 5px;
   bottom: 5px;
   border-radius: 8px;
+}
+.review-c {
+  background-color: white;
+  color: rgb(48, 46, 46);
+  margin: 10px;
+}
+.review-c p {
+  margin: 0px 20px 0px 30px;
+  padding: 10px;
+}
+.review-star img {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.profile {
+  display: flex;
+}
+.profile-p {
+  margin: -5px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.profile-img img {
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 50%;
 }

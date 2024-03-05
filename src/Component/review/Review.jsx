@@ -5,7 +5,7 @@ const review = () => {
   return (
     <>
       <div className="review-container">
-        <div className="img-container">
+        <div className="review-image">
           <img src="./images/client.png" alt="Your Image" />
         </div>
         <div className="review-headpage">
@@ -20,16 +20,23 @@ const review = () => {
           </div>
 
           <div className="review-c">
-            <p>
-              Lorem Ipsum has been the industry dummy text of the printing and
-              typesetting industry dummy text of the printing and typesetting
-              industry.
-            </p>
-            <div className="img-container">
-              <img src="./images/.png" alt="Your Image" />
+            <div className="review-star">
+              <img src="images/5star.png" alt="star" width={150} />
             </div>
-            <p>opmaurya</p>
-            <p>software developer</p>
+            <p>
+              "Lorem Ipsum has been the industry dummy text of the printing and
+              typesetting industry dummy text of the printing and typesetting
+              industry."x
+            </p>
+            <div className="profile">
+              <div className="profile-img">
+                <img src="./images/nimg.jpg" alt="Your Image" width={70} />
+              </div>
+              <div className="profile-s">
+                <p>opmaurya</p>
+                <p>software developer</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

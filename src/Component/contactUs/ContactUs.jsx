@@ -24,6 +24,12 @@ const contactUs = () => {
               <hr />
               <span>Connect with us :</span>
             </div>
+            <div className="social-icon">
+              <img src="./images/fb.png" alt="" />
+              <img src="./images/insta.png" alt="" />
+              <img src="./images/tw.png" alt="" />
+              <img src="./images/in.png" alt="" />
+            </div>
           </div>
         </div>
         {/* <---------------------------------> */}

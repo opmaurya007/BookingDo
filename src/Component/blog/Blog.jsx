@@ -1,4 +1,5 @@
 import React from "react";
+import "./Blog.css";
 import BlogCard from "../card/BlogCard.jsx";
 import BlogData from "../data/BlogData.jsx";
 

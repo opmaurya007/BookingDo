@@ -3,8 +3,10 @@
   padding: 0px;
 }
 .store {
+  margin-top: 60px;
+
   width: 100%;
-  background-color: #f5f6f7;
+  background-color: white;
 }
 .store-r {
   margin-left: 100px;
@@ -79,4 +81,9 @@
 
 .card-description {
   color: #555;
+}
+.btn-3 button {
+  /* display: flex; */
+  border-radius: 8px;
+  align-items: end;
 }

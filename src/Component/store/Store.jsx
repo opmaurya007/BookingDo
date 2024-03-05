@@ -20,7 +20,7 @@ const store = () => {
               typesetting industry.
             </p>
           </div>
-          <div class="card-group ">
+          <div className="card-group ">
             {StoreData.map((card, index) => (
               <StoreCard
                 key={index}

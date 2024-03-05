@@ -24,6 +24,7 @@ const feature = () => {
                 image={card.image}
                 title={card.title}
                 description={card.description}
+                color={card.color}
               />
             ))}
           </div>

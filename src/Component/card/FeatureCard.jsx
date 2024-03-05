@@ -1,6 +1,6 @@
 const FeatureCard = (props) => (
   <>
-    <div className="feature-box">
+    <div className="feature-box" style={{ backgroundColor: props.color }}>
       <div className="card-image">
         <img src={props.image} alt={props.imagee} />
       </div>

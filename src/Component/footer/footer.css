@@ -64,3 +64,15 @@ hr {
   font-weight: 400;
   font-size: 25px;
 }
+
+.social-icon-f img {
+  width: 30px;
+  background-color: white;
+  border-radius: 50px;
+  padding: 8px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}

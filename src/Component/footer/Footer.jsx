@@ -45,6 +45,22 @@ const footer = () => {
       <div className="footer-l">
         <span>Copyright © 2023 Papon IT Solutions. All Rights Reserved</span>
       </div>
+      <div className="social-icon-f">
+        <div className="row-img">
+          {" "}
+          <img src="./images/facebook.png" alt="" />
+        </div>{" "}
+        <div className="row-img">
+          {" "}
+          <img src="./images/instagram.png" alt="" />
+        </div>{" "}
+        <div className="row-img">
+          <img src="./images/twitter.png" alt="" />
+        </div>
+        <div className="row-img">
+          <img src="./images/linkedin.png" alt="" />
+        </div>
+      </div>
     </div>
   );
 };

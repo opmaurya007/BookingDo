@@ -3,6 +3,7 @@
   padding: 0px;
 }
 .store {
+  margin-bottom: 60px;
   width: 100%;
   background-color: white;
 }
@@ -79,4 +80,9 @@
 
 .card-description {
   color: #555;
+}
+
+.card-group {
+  display: flex;
+  flex-direction: row;
 }
