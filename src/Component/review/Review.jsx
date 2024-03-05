@@ -24,9 +24,9 @@ const review = () => {
               <img src="images/5star.png" alt="star" width={150} />
             </div>
             <p>
-              "Lorem Ipsum has been the industry dummy text of the printing and
+              " Lorem Ipsum has been the industry dummy text of the printing and
               typesetting industry dummy text of the printing and typesetting
-              industry."x
+              industry. "
             </p>
             <div className="profile">
               <div className="profile-img">

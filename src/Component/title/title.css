@@ -1,16 +1,19 @@
 .title {
   display: flex;
   padding: 20px;
-  margin: 40px;
+  margin: 20px;
   margin-left: 100px;
   margin-right: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .title-heading {
-  flex: 1; /* Take up all available space in the flex container */
-  /* padding: 20px; */
+  flex: 1;
   margin-left: 100px;
   margin-right: 100px;
+}
+.title-r {
+  margin: 20px;
 }
 
 .title-heading h2 {
@@ -40,7 +43,6 @@
   border-radius: 8px;
 }
 .title p {
-  font-family: Arial, Helvetica, sans-serif;
   text-align: start;
   padding: 20px;
   font-size: large;
@@ -56,11 +58,6 @@
   transition-timing-function: ease-in;
   transition-delay: 2s;
 }
-/* 
-.title-image:hover,
-#i1:hover {
-  transform: translate3d(-10px);
-} */
 
 img {
   max-width: 60%; /* Make sure the image doesn't overflow its container */

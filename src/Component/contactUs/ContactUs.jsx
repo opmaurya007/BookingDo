@@ -25,10 +25,18 @@ const contactUs = () => {
               <span>Connect with us :</span>
             </div>
             <div className="social-icon">
-              <img src="./images/fb.png" alt="" />
-              <img src="./images/insta.png" alt="" />
-              <img src="./images/tw.png" alt="" />
-              <img src="./images/in.png" alt="" />
+              <a href="https://www.facebook.com/">
+                <img src="./images/wfb.png" alt="" />
+              </a>{" "}
+              <a href="https://twitter.com/">
+                <img src="./images/wtw.png" alt="" />
+              </a>{" "}
+              <a href="https://www.instagram.com/">
+                <img src="./images/winsta.png" alt="" />
+              </a>{" "}
+              <a href="https://www.linkedin.com/">
+                <img src="./images/win.png" alt="" />
+              </a>
             </div>
           </div>
         </div>
