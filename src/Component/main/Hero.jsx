@@ -1,7 +1,7 @@
 import React from "react";
 import "./main.css";
 
-const main = () => {
+const Hero = () => {
   return (
     <>
       <div className="app-container">
@@ -23,4 +23,4 @@ const main = () => {
   );
 };
 
-export default main;
+export default Hero;

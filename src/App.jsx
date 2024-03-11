@@ -11,7 +11,7 @@ import {
   Feature,
   Footer,
   Header,
-  Main,
+  Hero,
   Navbar,
   Newsletter,
   Plan,
@@ -50,7 +50,7 @@ function App() {
         <Header />
         <div className="gradiant__bg">
           <Navbar />
-          <Main />
+          <Hero />
         </div>
         <Title cardsData={data} />
 
