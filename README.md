@@ -3,7 +3,7 @@
 
 deployment live link of this project
 
-https://master--quiet-duckanoo-4237a2.netlify.app/
+https://bookingdo.netlify.app/
 <h1 align="center">Hi 👋, I'm Omprakash Kushwaha</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
