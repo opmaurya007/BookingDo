@@ -53,15 +53,11 @@ function App() {
           <Hero />
         </div>
         <Title cardsData={data} />
-
         <Feature />
         <Plan />
-
         <Store />
         <Review />
-
         <Blog />
-
         <Vendor />
         <Newsletter />
         <ContactUs />

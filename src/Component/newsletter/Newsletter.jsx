@@ -19,7 +19,7 @@ const newsletter = () => {
             </p>
           </div>
 
-          <div className="btn-2">
+          <div className="btn-n">
             <input type="email" placeholder="Email" />
             <button>Subscribe</button>
           </div>

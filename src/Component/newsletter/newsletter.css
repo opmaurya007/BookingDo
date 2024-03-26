@@ -49,26 +49,29 @@ img {
   margin: 10px;
 }
 
-.btn-2 {
+.btn-n {
   width: 100%;
-  position: relative;
+  margin-top: 30px;
+
+  /* position: relative; */
 }
-.btn-2 input {
+.btn-n input {
+  margin-left: 20px;
+  width: 70%;
   padding: 10px;
+  border-radius: 8px 0px 0px 8px;
+
+  /* margin-left: -140px; */
 }
-.btn-2 button {
-  /* border: none;
-  padding: 14px;
+.btn-n button {
+  width: 20%;
+  /* padding: 20px; */
   text-align: center;
   align-items: center;
-  border-radius: 8px;
-  background-color: #f25a23;
-  color: white; */
-  margin: -20;
-  height: 85%;
-  position: absolute;
+  padding: 11px;
+
   right: 5px;
   top: 5px;
   bottom: 5px;
-  border-radius: 8px;
+  border-radius: 0px 8px 8px 0px;
 }
