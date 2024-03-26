@@ -11,7 +11,7 @@ https://master--quiet-duckanoo-4237a2.netlify.app/
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=opmaurya007" alt="opmaurya007" /></a> </p>
 
-- 🔭 I’m currently working on [BookingDo](https://master--quiet-duckanoo-4237a2.netlify.app/)
+- 🔭 I’m currently working on [BookingDo](https://bookingdo.netlify.app/)
 
 - 🌱 I’m currently learning **JavaScript,ReactJs**
 
